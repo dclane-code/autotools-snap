@@ -9,4 +9,15 @@ snap checklist (snapcraft.io/docs/snapcraft-checklist)
     2. toolkit = none
     3. system integration = none
 
+$ snapcraft init
+edit global metadata (https://snapcraft.io/docs/adding-global-metadata)
+
+Add parts to snapcraft.yaml
+    https://snapcraft.io/docs/adding-parts
+
+Add command to snapcraft.yaml
+    https://snapcraft.io/docs/defining-a-command
+
+do a test build
+$ snapcraft --debug
 

@@ -3,3 +3,6 @@ dclane-hello: main.c
 
 clean:
 	rm -rf dclane-hi
+
+install:
+	cp dclane-hi /bin/dclane-hi
