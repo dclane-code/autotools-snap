@@ -1,4 +1,12 @@
 demo application for the sake of building a snap from github
 
-to build:
+to build (manually):
 $ make
+
+snap checklist (snapcraft.io/docs/snapcraft-checklist)
+    1. language/framework/build system
+        plugin = make
+    2. toolkit = none
+    3. system integration = none
+
+
