@@ -5,4 +5,4 @@ clean:
 	rm -rf dclane-hi
 
 install:
-	cp dclane-hi /bin/dclane-hi
+	install -m755 dclane-hi /bin/
