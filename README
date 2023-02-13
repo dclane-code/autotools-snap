@@ -21,3 +21,8 @@ Add command to snapcraft.yaml
 do a test build
 $ snapcraft --debug
 
+install
+$ sudo snap install --devmode --dangerous ./test-dclane-hi_0.1_amd64.snap
+
+run
+$ test-dclane-hi.dclane-hi
