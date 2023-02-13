@@ -1,0 +1,4 @@
+demo application for the sake of building a snap from github
+
+to build:
+$ make
