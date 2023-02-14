@@ -16,8 +16,8 @@ parts:
   dclane-hi:
     # See 'snapcraft plugins'
     plugin: make
-    #source: test.tgz
-    source: https://github.com/dclane-code/snaptest.git
+    source: test.tgz
+    #source: https://github.com/dclane-code/snaptest.git
     override-build: |
         set -x
         mkdir $SNAPCRAFT_PART_INSTALL/bin
