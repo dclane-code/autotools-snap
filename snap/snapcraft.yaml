@@ -10,11 +10,15 @@ confinement: devmode # use 'strict' once you have the right plugs and slots
 
 apps:
   dclane-hi:
-    command: dclane-hi
+    command: bin/dclane-hi
 
 parts:
   dclane-hi:
     # See 'snapcraft plugins'
     plugin: make
-    #source: .git # for local testing
+    #source: test.tgz
     source: https://github.com/dclane-code/snaptest.git
+    override-build: |
+        set -x
+        mkdir $SNAPCRAFT_PART_INSTALL/bin
+        snapcraftctl build
