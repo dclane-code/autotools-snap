@@ -1,2 +1,11 @@
 test*.snap
 dclane-hi
+autom4te.cache/
+config.log
+config.status
+configure~
+src/.deps/
+src/Makefile
+src/dclane_hi
+src/*o
+
